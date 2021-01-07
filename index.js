@@ -16,13 +16,13 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   var uppercase = "HELLO!";
-  uppercase.toUpperCase() === uppercase
+  uppercase.toUpperCase('string') === uppercase
     return "YES INDEED!";
   var lowercase = "hello!";
-  lowercase.toLowerCase() === lowercase
+  lowercase.toLowerCase('string') === lowercase
     return "I can't hear you!";
   var mixedCase = "I love you, Grandma.";
-  mixedCase.toLowerCase() === mixedCase
+  mixedCase.toLowerCase('string') === mixedCase
   mixedCase.toUpperCase() === mixedCase
     return "I love you, too.";
 }
